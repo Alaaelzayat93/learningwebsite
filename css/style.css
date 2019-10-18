@@ -108,8 +108,15 @@ border-top: 5px solid #f0562b;
 
 /**start nav**/
  .navbar-toggler {
-    color: #fff;
-    border-color: #102636 !important;
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #102636;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar-toggler i{
+  color:#fff !important;
 }
 
 .navbar-brand{
