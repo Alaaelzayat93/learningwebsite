@@ -107,6 +107,13 @@ border-top: 5px solid #f0562b;
   clear: both; }
 
 /**start nav**/
+.navbar-toggler{
+  background: #102336;
+  border-color:#ccc;
+}
+.navbar-toggler span{
+  color:#fff;
+}
 .navbar-brand{
   color:#102336 !important;
   font-size: 26px !important;
@@ -213,6 +220,12 @@ background: url(../img/aboutus.jpg) no-repeat center fixed;
   background: none;
   color: #fff;
   border:1px solid #f0562b;
+}
+
+@media (max-width: 991px){
+  .about .text{
+    width: 100% !important;
+  }
 }
 /*start courses*/
 .courses{
@@ -344,6 +357,11 @@ font-size: 23px;
 }
 .footer .app-def img{
   margin-bottom: 10px;
+}
+@media (max-width: 991px){
+  .footer{
+    height: auto;
+  }
 }
 /**footer 2*/
 footer{
