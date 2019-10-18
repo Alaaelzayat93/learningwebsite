@@ -107,13 +107,11 @@ border-top: 5px solid #f0562b;
   clear: both; }
 
 /**start nav**/
-.navbar-toggler{
-  background: #102336;
-  border-color:#ccc;
+ .navbar-toggler {
+    color: #fff;
+    border-color: #102636 !important;
 }
-.navbar-toggler span{
-  color:#fff;
-}
+
 .navbar-brand{
   color:#102336 !important;
   font-size: 26px !important;
@@ -296,6 +294,11 @@ overflow: hidden;
   background: none;
   color: #102336;
   border:1px solid #f0562b;
+}
+@media(max-width: 992px){
+  .courses .block-text button#online{
+    height: auto !important;
+  }
 }
 /*****team**************/
 /*team*/
