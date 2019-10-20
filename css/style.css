@@ -331,6 +331,37 @@ overflow: hidden;
     padding: 17px;
     font-weight: bold;
 }
+@media(max-width: 992px){
+  .team .overlay2{
+    margin-bottom: 10px !important;
+  }
+}
+/*****strt newsletter********/
+.letter{
+  background: #102636;
+  padding: 50px 50px;
+}
+.letter .blocktext h1{
+  color: #fff;
+}
+.letter .blocktext p{
+  color: #ccc;
+}
+.letter form input[type="text"]{
+  position: relative;
+    height: 56px;
+    width: 70%;
+    margin: auto;
+}
+.letter form button[type="submit"]{
+  position: absolute;
+    right: 22%;
+    display: block;
+    margin: 4px;
+}
+.letter img{
+  width: 60%;
+}
 /***footer**/
 .footer{
   background-color:#1a1f25;
