@@ -1,0 +1,16 @@
+.header .image{
+	clip-path: polygon(0 0, 100% 0, 77% 76%, 24% 75%);
+	background: #102636;
+	color: #102636;
+}
+.header .block h2{
+	    color: #102636;
+    font-size: 41px;
+}
+.header .block p{
+	    color: #f0562b;
+    font-size: 21px;
+}
+.m-w-100{
+max-width: 100%;
+}
