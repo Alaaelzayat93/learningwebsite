@@ -14,3 +14,32 @@
 .m-w-100{
 max-width: 100%;
 }
+/*******start subjects--------------*/
+.subjects .card .card-body h3 a{
+	color:#102636;
+	text-decoration: none;
+	font-weight: bold;
+}
+.subjects .card .card-body .card-subtitule-1{
+	color: #c1aaaa;
+}
+.subjects .card .card-body .btn{
+	    background: #f0562b;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.subjects .card .card-body p{
+	color:#555;
+}
+.subjects .cardgroup{
+border-radius: .7rem;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0.1rem 0.1rem 0.3rem 0 #e5e5e5;
+    margin-bottom: 3rem;
+    border: 1px solid #ddd;
+} 
+.subjects .cardgroup li{
+    border-bottom: .1rem dashed #ccc;
+padding: 10px;}
