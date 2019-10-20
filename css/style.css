@@ -355,7 +355,7 @@ overflow: hidden;
 }
 .letter form button[type="submit"]{
   position: absolute;
-    right: 22%;
+    right: 17%;
     display: block;
     margin: 4px;
 }
