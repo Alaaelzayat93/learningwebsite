@@ -15,21 +15,44 @@ html{
 }
 
 
-.header .image{
+.main-background{
 	clip-path: polygon(0 0, 100% 0, 77% 76%, 24% 75%);
 	background: #102636;
 	color: #102636;
+    height: 712px;
+    
 }
-.header .block h2{
-	    color: #102636;
+.main-background .image{
+    background: url(../img/cources.jpg);
+    background-repeat: no-repeat;
+    
+    width: 80%;
+    margin: auto;
+    height: 400px;
+    
+    background-size: cover;
+}
+.header .image img{
+    max-width: 100%;
+}
+.main-background .block h2{
+	    color: #fff;
     font-size: 41px;
 }
-.header .block p{
+.main-background .block p{
 	    color: #f0562b;
     font-size: 21px;
 }
 .m-w-100{
 max-width: 100%;
+}
+@media (max-width: 991px){
+   .main-background .block p{
+    font-size: 10px;
+   }
+   .main-background .block h2{
+    font-size: 17px;
+   } 
 }
 /*******start subjects--------------*/
 .subjects .card .card-body h3 a{

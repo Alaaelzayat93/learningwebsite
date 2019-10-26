@@ -130,13 +130,34 @@ border-top: 5px solid #f0562b;
     font-size: 20px;
     color:#102336;
   }
+  .navbar-nav .nav-link:hover{
+    border-top: 2px solid #f0562b;
+    border-bottom: 2px solid #f0562b;
+    transition: all 1s ease-in-out;
+  }
   .navbar-nav .nav-link i{
    color: #f0562b;
    margin-right: 10px;
   }
-  .navbar-nav li #search{
+  .navbar-nav li  #search{
     line-height: 3;
+    color: #f05656;
   }
+  .navbar-nav li .search-boxx{
+    position: absolute;
+    top: 60px;
+    border-top: 2px solid #f0562b;
+     display: none;
+    z-index: 33;
+}
+.navbar-nav .search-input{
+    width: 250px;
+    border-radius: 0px;
+    background-color: #fff;
+    border: 1px solid #9999;
+  
+    height: 40px;
+}
   .navbar-light .navbar-nav .nav-link:hover{
     color: #c92035;
   }
@@ -164,7 +185,7 @@ border-top: 5px solid #f0562b;
     bottom: 178px;
 }
 /*****start statics*************/
-.statics {
+.second-section {
     padding: 80px 0px;
     background-color: #102336;
     color: #fff;
@@ -174,11 +195,11 @@ border-top: 5px solid #f0562b;
     margin: 0 auto;
     text-align: center;
 }
-.statics i {
+.second-section i {
     font-size: 32px;
     line-height: 80px;
 }
-.statics .shape {
+.second-section .icon {
     height: 80px;
     width: 80px;
     border-radius: 50%;
@@ -189,24 +210,24 @@ border-top: 5px solid #f0562b;
     cursor: pointer;
 }
 /*****start about us*******/
-.about{
+.about-us{
 background: url(../img/aboutus.jpg) no-repeat center fixed;
     background-size: cover;
     color: #EEE;
     text-align: center;
     font-size: 16px;
 }
-.about .about-overlay{
+.about .aboutus-overlay{
     padding: 60px 0px;
     background-color: rgba(0,0,0,.5);
 
 }
-.about .text{
+.about-us .text-block{
   width: 60%;
     margin: 0 auto;
     line-height: 35px;
 }
-.about .text p{
+.about-us .text-block p{
       padding: 10px;
     margin-top: 40px;
         font-size: 20px;
@@ -214,21 +235,21 @@ background: url(../img/aboutus.jpg) no-repeat center fixed;
     background-color: rgba(16,35,54,.7);
     border-radius: 5px;
 }
-.about .text button{
+.about-us .text-block button{
   background-color: #f0562b;
     border: 1px solid transparent;
     padding: 10px 60px;
     margin-top: 30px;
     transition: all ease-in-out .4s;
 }
-.about .text button:hover{
+.about-us .text-block button:hover{
   background: none;
   color: #fff;
   border:1px solid #f0562b;
 }
 
 @media (max-width: 991px){
-  .about .text{
+  .about-us .text-block{
     width: 100% !important;
   }
 }
@@ -358,6 +379,14 @@ overflow: hidden;
     right: 17%;
     display: block;
     margin: 4px;
+    background: #f0562b;
+    outline: none;
+}
+.letter form button[type="submit"]:hover{
+  background: none;
+  border:2px solid #f0562b;
+  color: #102636;
+  transition: all 0.5s ease-in-out;
 }
 .letter img{
   width: 60%;
@@ -369,10 +398,10 @@ overflow: hidden;
   height: 500px;
   color: #fff;
 }
-.footer .about-footer h4{
+.footer .footer-info h4{
   padding: 30px 0;
 }
-.footer .about-footer p{
+.footer .footer-info p{
   font-size: 24px;
 }
 .footer .main{
@@ -402,6 +431,9 @@ font-size: 23px;
 @media (max-width: 991px){
   .footer{
     height: auto;
+  }
+  .footer .footer-info p{
+    width: 500px;
   }
 }
 /**footer 2*/
