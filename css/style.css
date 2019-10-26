@@ -45,7 +45,7 @@ h2,h1{
 /**upper nav-*/
 .upper-nav{
 direction: rtl;
-background-color: #102336;
+background-color: #182431;
 color: #fff;
 padding: 2px 0;
 line-height: 1;
@@ -111,7 +111,7 @@ border-top: 5px solid #f13d0a;
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: #102636;
+    background-color: #182431;
     border: 1px solid transparent;
     border-radius: .25rem;
 }
@@ -120,7 +120,7 @@ border-top: 5px solid #f13d0a;
 }
 
 .navbar-brand{
-  color:#102336 !important;
+  color:#182431 !important;
   font-size: 26px !important;
 }
  .navbar-brand span{
@@ -128,7 +128,7 @@ border-top: 5px solid #f13d0a;
 }
   .navbar-nav .nav-link{
     font-size: 20px;
-    color:#102336;
+    color:#182431;
   }
   .navbar-nav .nav-link:hover{
     border-top: 2px solid #f13d0a;
@@ -187,7 +187,7 @@ border-top: 5px solid #f13d0a;
 /*****start statics*************/
 .second-section {
     padding: 80px 0px;
-    background-color: #102336;
+    background-color: #182431;
     color: #fff;
     font-size: 26px;
     display: table;
@@ -241,6 +241,7 @@ background: url(../img/aboutus.jpg) no-repeat center fixed;
     padding: 10px 60px;
     margin-top: 30px;
     transition: all ease-in-out .4s;
+    margin: 20px;
 }
 .about-us .text-block button:hover{
   background: none;
@@ -258,7 +259,7 @@ background: url(../img/aboutus.jpg) no-repeat center fixed;
     width: 100%;
     padding: 50px 0;
     text-align: center;
-    background:#102336;
+    background:#182431;
 }
 .courses h1{
     color: #fff;
@@ -320,7 +321,7 @@ overflow: hidden;
 }
 .courses .block-text button#online:hover{
   background: none;
-  color: #102336;
+  color: #182431;
   border:1px solid #f0562b;
 }
 @media(max-width: 992px){
